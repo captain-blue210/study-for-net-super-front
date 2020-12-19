@@ -1,12 +1,10 @@
 <template>
-  <div class="container">
-    <Catalog />
-  </div>
+  <Catalog />
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import Catalog from "~/pages/goods/list/Catalog.vue";
+import Vue from 'vue';
+import Catalog from '~/pages/goods/list/Catalog.vue';
 
 export default Vue.extend({
   components: {
