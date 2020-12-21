@@ -15,7 +15,8 @@
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
-    "types": ["@types/node", "@nuxt/types", "@types/jest"]
+    "types": ["@types/node", "@nuxt/types", "@nuxtjs/axios", "@types/jest"],
+    "declaration": true
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

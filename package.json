@@ -8,12 +8,14 @@
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
     "test": "jest",
-    "mock": "json-server --watch db.json --port 3001"
+    "mock": "json-server --watch ./mock/db.json --routes ./mock/routes.json --port 3001"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.12.4",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vuejs-paginate": "^2.1.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.11",
