@@ -1,5 +1,5 @@
 <template>
-  <nav class="row-span-1 col-span-2 h-full bg-gray-200">
+  <nav class="h-full row-start-2 row-end-3 col-start-1 col-end-3 bg-gray-200">
     <AtomText text="Nav" :classObject="navClass" />
   </nav>
 </template>
