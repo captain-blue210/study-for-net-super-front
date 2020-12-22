@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="toCatalog">商品一覧へ</nuxt-link>
+  <Catalog :items="items" />
 </template>
 
 <script lang="ts">
@@ -8,13 +8,17 @@ import Catalog from '~/pages/search/Catalog.vue';
 import ROUTES from '~/routes/api';
 
 export default Vue.extend({
-  data() {
-    return {
-      toCatalog: ROUTES.GET.SEARCH,
-    };
-  },
   components: {
     Catalog,
+  },
+  data() {
+    return {
+      items: [],
+    };
+  },
+  async asyncData({ $axios }) {
+    const items = await $axios.$get(ROUTES.GET.SEARCH);
+    return { items };
   },
 });
 </script>

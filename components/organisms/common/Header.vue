@@ -1,5 +1,5 @@
 <template>
-  <header class="h-1/3 row-span-full col-span-12 bg-red-200">
+  <header class="row-start-1 row-end-2 col-start-1 col-end-13 bg-red-200">
     <AtomText text="Header" :classObject="headerClass" />
   </header>
 </template>

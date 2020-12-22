@@ -14,8 +14,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 2
     },
     {
@@ -23,8 +23,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 3
     },
     {
@@ -32,8 +32,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 4
     },
     {
@@ -41,8 +41,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 5
     },
     {
@@ -50,8 +50,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 6
     },
     {
@@ -59,8 +59,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 7
     },
     {
@@ -68,8 +68,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 8
     },
     {
@@ -77,8 +77,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 9
     },
     {
@@ -86,8 +86,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 10
     },
     {
@@ -95,8 +95,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 11
     },
     {
@@ -104,8 +104,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 12
     },
     {
@@ -113,8 +113,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 13
     },
     {
@@ -122,8 +122,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 14
     },
     {
@@ -131,8 +131,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 15
     },
     {
@@ -140,8 +140,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 16
     },
     {
@@ -149,8 +149,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 17
     },
     {
@@ -158,8 +158,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 18
     },
     {
@@ -167,8 +167,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 19
     },
     {
@@ -176,8 +176,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 20
     },
     {
@@ -185,8 +185,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 21
     },
     {
@@ -194,8 +194,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 22
     },
     {
@@ -203,8 +203,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 23
     },
     {
@@ -212,8 +212,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 24
     },
     {
@@ -221,8 +221,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 25
     },
     {
@@ -230,8 +230,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 26
     },
     {
@@ -239,8 +239,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 27
     },
     {
@@ -248,8 +248,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 28
     },
     {
@@ -257,8 +257,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 29
     },
     {
@@ -266,8 +266,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 30
     },
     {
@@ -275,8 +275,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 31
     },
     {
@@ -284,8 +284,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 32
     },
     {
@@ -293,8 +293,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 33
     },
     {
@@ -302,8 +302,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 34
     },
     {
@@ -311,8 +311,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 35
     },
     {
@@ -320,8 +320,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 36
     },
     {
@@ -329,8 +329,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 37
     },
     {
@@ -338,8 +338,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 38
     },
     {
@@ -347,8 +347,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 39
     },
     {
@@ -356,8 +356,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 40
     },
     {
@@ -365,8 +365,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 41
     },
     {
@@ -374,8 +374,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 42
     },
     {
@@ -383,8 +383,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 43
     },
     {
@@ -392,8 +392,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 44
     },
     {
@@ -401,8 +401,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 45
     },
     {
@@ -410,8 +410,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 46
     },
     {
@@ -419,8 +419,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 47
     },
     {
@@ -428,8 +428,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 48
     },
     {
@@ -437,8 +437,8 @@
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
-      "excludingTaxPrice": "1000",
-      "includingTaxPrice": "1000",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1000,
       "id": 49
     }
   ]
