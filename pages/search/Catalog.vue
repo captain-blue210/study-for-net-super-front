@@ -1,22 +1,25 @@
 <template>
-  <section class="row-start-2 row-end-3 col-start-3 col-end-13">
+  <section class="h-full row-start-2 row-end-3 col-start-3 col-end-13">
     <div class="grid grid-cols-4">
-      <CatalogItem :item="item" v-for="item in items" :key="item.id" />
-      <no-ssr>
-        <Paginate
-          class="col-start-1 col-end-5"
-          :container-class="'flex justify-center divide-x-2 divide-gray-500'"
-          :page-class="'border-2 border-t-2 border-b-2 py-1.5 px-3'"
-          :prev-class="'border-2 m-2'"
-          :next-class="'border-2 ml-8'"
-          :page-count="48"
-          :page-range="9"
-          :prevText="'前のページ'"
-          :nextText="'次のページ'"
-          :hide-prev-next="true"
-        />
-      </no-ssr>
+      <CatalogItem :item="item" v-for="item in getCurrenCatalog" :key="item.id" />
     </div>
+    <no-ssr>
+      <Paginate
+        :container-class="'flex justify-center bg-gray-100 border-b-2 border-t-2 h-30 object-bottom'"
+        :page-class="'border-b-2 border-t-2 divide-x-2 self-center bg-white'"
+        :page-link-class="`py-1.5 px-3`"
+        :prev-class="'border-2 m-6 bg-white'"
+        :next-class="'border-2 m-6 bg-white'"
+        :prev-link-class="'m-3 p-3'"
+        :next-link-class="'m-3 p-3'"
+        :page-count="getMaxPage"
+        :page-range="9"
+        :prevText="'＜ 前のページ'"
+        :nextText="'次のページ ＞'"
+        :click-handler="clickCallBack"
+        :active-class="'bg-gray-300'"
+      />
+    </no-ssr>
   </section>
 </template>
 
@@ -25,6 +28,15 @@ import Vue from 'vue';
 import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import ROUTES from '~/routes/api';
 
+interface DataType {
+  perPage: number;
+  currentPage: number;
+}
+
+interface PorpType {
+  items: Array<Object>;
+}
+
 export default Vue.extend({
   name: 'Catalog',
   components: {
@@ -32,10 +44,24 @@ export default Vue.extend({
   },
   data: function () {
     return {
-      containerClass: {
-        'justify-between': true,
-      },
+      perPage: 24,
+      currentPage: 1,
     };
+  },
+  methods: {
+    clickCallBack: function (pageNum: number) {
+      this.currentPage = pageNum;
+    },
+  },
+  computed: {
+    getCurrenCatalog(): Object {
+      let current = this.currentPage * this.perPage;
+      const start = current - this.perPage;
+      return this.items.slice(start, current);
+    },
+    getMaxPage(): number {
+      return Math.ceil(this.items.length / this.perPage);
+    },
   },
   props: {
     items: {
