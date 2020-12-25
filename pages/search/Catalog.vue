@@ -28,6 +28,7 @@
 import Vue from 'vue';
 import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import ROUTES from '~/routes/api';
+import Paginate from 'vuejs-paginate';
 
 interface DataType {
   perPage: number;
@@ -42,6 +43,7 @@ export default Vue.extend({
   name: 'Catalog',
   components: {
     CatalogItem,
+    Paginate,
   },
   data: function () {
     return {
