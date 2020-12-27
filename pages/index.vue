@@ -10,7 +10,7 @@ import ROUTES from '~/routes/api';
 export default Vue.extend({
   data() {
     return {
-      toCatalog: ROUTES.GET.SEARCH,
+      toCatalog: `${ROUTES.GET.SEARCH}?page=1`,
     };
   },
   components: {

@@ -1,9 +1,9 @@
 <template>
   <section class="h-full row-start-2 row-end-3 col-start-3 col-end-13">
     <div class="grid grid-cols-4">
-      <CatalogItem :item="item" v-for="item in getCurrenCatalog" :key="item.id" />
+      <CatalogItem :item="item" v-for="item in items" :key="item.id" />
     </div>
-    <no-ssr>
+    <client-only>
       <Paginate
         :container-class="'flex justify-center bg-gray-100 border-b-2 border-t-2 h-30 object-bottom'"
         :page-class="'border-b-2 border-t-2 divide-x-2 self-center bg-white'"
@@ -18,8 +18,9 @@
         :nextText="'次のページ ＞'"
         :click-handler="clickCallBack"
         :active-class="'bg-gray-300'"
+        :hide-prev-next="true"
       />
-    </no-ssr>
+    </client-only>
   </section>
 </template>
 
@@ -28,44 +29,49 @@ import Vue from 'vue';
 import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import ROUTES from '~/routes/api';
 
-interface DataType {
+type DataType = {
   perPage: number;
   currentPage: number;
-}
+};
 
-interface PorpType {
+type PorpType = {
   items: Array<Object>;
-}
+};
 
 export default Vue.extend({
   name: 'Catalog',
   components: {
     CatalogItem,
+    Paginate: () => {
+      if (process.client) {
+        return import('vuejs-paginate');
+      }
+    },
   },
   data: function () {
     return {
-      perPage: 24,
+      perPage: 48,
       currentPage: 1,
     };
   },
   methods: {
     clickCallBack: function (pageNum: number) {
       this.currentPage = pageNum;
+      this.$emit('change-page', pageNum);
     },
   },
   computed: {
-    getCurrenCatalog(): Object {
-      let current = this.currentPage * this.perPage;
-      const start = current - this.perPage;
-      return this.items.slice(start, current);
-    },
     getMaxPage(): number {
-      return Math.ceil(this.items.length / this.perPage);
+      return Math.ceil(this.totalCount / this.perPage);
     },
   },
   props: {
     items: {
       type: Array,
+      required: true,
+    },
+    totalCount: {
+      type: Number,
       required: true,
     },
   },

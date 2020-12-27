@@ -1,5 +1,5 @@
 <template>
-  <Catalog :items="items" />
+  <Catalog :items="items" :totalCount="totalCount" @change-page="getCurrenCatalog" />
 </template>
 
 <script lang="ts">
@@ -14,11 +14,24 @@ export default Vue.extend({
   data() {
     return {
       items: [],
+      totalCount: 0,
     };
   },
-  async asyncData({ $axios }) {
-    const items = await $axios.$get(ROUTES.GET.SEARCH);
-    return { items };
+  watchQuery: ['page'],
+  methods: {
+    getCurrenCatalog(currentPage: number): void {
+      this.$router.push(`${ROUTES.GET.SEARCH}?page=${currentPage}`);
+    },
+  },
+  async asyncData({ $axios, query }) {
+    let data: Object[] = [];
+    let totalCount: number = 0;
+
+    await $axios.get(`${ROUTES.GET.SEARCH}?page=${query.page}`).then((res) => {
+      data = res.data;
+      totalCount = res.headers['x-total-count'];
+    });
+    return { items: data, totalCount: Number(totalCount) };
   },
 });
 </script>
