@@ -3,7 +3,7 @@
     <div class="grid grid-cols-4">
       <CatalogItem :item="item" v-for="item in items" :key="item.id" />
     </div>
-    <no-ssr>
+    <client-only>
       <Paginate
         :container-class="'flex justify-center bg-gray-100 border-b-2 border-t-2 h-30 object-bottom'"
         :page-class="'border-b-2 border-t-2 divide-x-2 self-center bg-white'"
@@ -20,7 +20,7 @@
         :active-class="'bg-gray-300'"
         :hide-prev-next="true"
       />
-    </no-ssr>
+    </client-only>
   </section>
 </template>
 
@@ -28,22 +28,25 @@
 import Vue from 'vue';
 import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import ROUTES from '~/routes/api';
-import Paginate from 'vuejs-paginate';
 
-interface DataType {
+type DataType = {
   perPage: number;
   currentPage: number;
-}
+};
 
-interface PorpType {
+type PorpType = {
   items: Array<Object>;
-}
+};
 
 export default Vue.extend({
   name: 'Catalog',
   components: {
     CatalogItem,
-    Paginate,
+    Paginate: () => {
+      if (process.client) {
+        return import('vuejs-paginate');
+      }
+    },
   },
   data: function () {
     return {
