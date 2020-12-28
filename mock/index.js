@@ -1,6 +1,6 @@
 module.exports = () => {
    const data = {
-      goods: []
+      "item": []
    }
 
    // create descripions data
@@ -20,8 +20,8 @@ module.exports = () => {
    }
 
    for (let i = 1; i <= 50; i++) {
-      data.goods.push({
-         "id": 1,
+      data.item.push({
+         "id": i,
          "goodsName": `テスト商品${i}`,
          "goodsBrand": "テストメーカー",
          "saleUnit": "90g×2",

@@ -1,7 +1,8 @@
 export const ROUTES = {
-   GET: {
-      SEARCH: 'search'
-   }
-}
+  GET: {
+    SEARCH: 'search',
+    ITEM: 'item',
+  },
+};
 
 export default ROUTES;
