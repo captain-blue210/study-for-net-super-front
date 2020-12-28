@@ -1,445 +1,1304 @@
 {
-  "items": [
+  "goods": [
     {
       "id": 1,
       "goodsName": "テスト商品1",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
-      "goodsImgUri": "test.jpg",
+      "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1080
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品2",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 2
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品3",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 3
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品4",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 4
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品5",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 5
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品6",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 6
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品7",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 7
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品8",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 8
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品9",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 9
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品10",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 10
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品11",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 11
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品12",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 12
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品13",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 13
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品14",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 14
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品15",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 15
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品16",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 16
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品17",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 17
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品18",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 18
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品19",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 19
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品20",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 20
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品21",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 21
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品22",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 22
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品23",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 23
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品24",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 24
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品25",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 25
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品26",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 26
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品27",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 27
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品28",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 28
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品29",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 29
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品30",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 30
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品31",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 31
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品32",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 32
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品33",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 33
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品34",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 34
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品35",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 35
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品36",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 36
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品37",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 37
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品38",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 38
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品39",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 39
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品40",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 40
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品41",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 41
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品42",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 42
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品43",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 43
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品44",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 44
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品45",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 45
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品46",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 46
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品47",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 47
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品48",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 48
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     },
     {
+      "id": 1,
       "goodsName": "テスト商品49",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
       "goodsImgUri": "test2.jpg",
       "excludingTaxPrice": 1000,
-      "includingTaxPrice": 1000,
-      "id": 49
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "goodsName": "テスト商品50",
+      "goodsBrand": "テストメーカー",
+      "saleUnit": "90g×2",
+      "goodsImgUri": "test2.jpg",
+      "excludingTaxPrice": 1000,
+      "includingTaxPrice": 1080,
+      "descriptions": [
+        {
+          "description_id": 1,
+          "description": "商品メイン説明",
+          "description_type": "main"
+        },
+        {
+          "description_id": 2,
+          "description": "商品サブ説明1",
+          "description_type": "sub"
+        },
+        {
+          "description_id": 3,
+          "description": "商品サブ説明2",
+          "description_type": "sub"
+        }
+      ]
     }
   ]
 }
