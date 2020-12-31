@@ -3,8 +3,8 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import AtomImage from "~/components/atoms/image/AtomImage.vue";
+import Vue from 'vue';
+import AtomImage from '~/components/atoms/image/AtomImage.vue';
 
 export default Vue.extend({
   components: {
@@ -13,8 +13,10 @@ export default Vue.extend({
   data: function () {
     return {
       classObject: {
-        "h-auto": true,
-        "w-auto": true,
+        'h-auto': true,
+        'w-full': true,
+        'max-w-full': true,
+        'pr-5': true,
       },
     };
   },

@@ -1,11 +1,11 @@
 module.exports = () => {
    const data = {
-      goods: []
+      "item": []
    }
 
    // create descripions data
-   const mainDescriptionTxt = '商品メイン説明';
-   const subDescriptionTxt = '商品サブ説明';
+   const mainDescriptionTxt = '商品メイン説明タイトル';
+   const subDescriptionTxt = '商品サブ説明タイトル';
 
    const descripions = []
 
@@ -13,15 +13,16 @@ module.exports = () => {
       descripions.push(
          {
             "description_id": i,
-            "description": i === 1 ? mainDescriptionTxt : `${subDescriptionTxt}${i - 1}`,
+            "description_title": i === 1 ? mainDescriptionTxt : `${subDescriptionTxt}${i - 1}`,
+            "description_content": '商品説明テスト',
             "description_type": i === 1 ? "main" : "sub"
          },
       )
    }
 
    for (let i = 1; i <= 50; i++) {
-      data.goods.push({
-         "id": 1,
+      data.item.push({
+         "id": i,
          "goodsName": `テスト商品${i}`,
          "goodsBrand": "テストメーカー",
          "saleUnit": "90g×2",
