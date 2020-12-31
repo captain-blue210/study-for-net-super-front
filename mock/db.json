@@ -1,5 +1,5 @@
 {
-  "item": [
+  "goods": [
     {
       "id": 1,
       "goodsName": "テスト商品1",
@@ -11,17 +11,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -37,17 +40,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -63,17 +69,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -89,17 +98,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -115,17 +127,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -141,17 +156,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -167,17 +185,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -193,17 +214,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -219,17 +243,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -245,17 +272,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -271,17 +301,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -297,17 +330,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -323,17 +359,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -349,17 +388,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -375,17 +417,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -401,17 +446,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -427,17 +475,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -453,17 +504,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -479,17 +533,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -505,17 +562,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -531,17 +591,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -557,17 +620,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -583,17 +649,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -609,17 +678,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -635,17 +707,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -661,17 +736,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -687,17 +765,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -713,17 +794,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -739,17 +823,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -765,17 +852,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -791,17 +881,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -817,17 +910,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -843,17 +939,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -869,17 +968,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -895,17 +997,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -921,17 +1026,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -947,17 +1055,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -973,17 +1084,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -999,17 +1113,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1025,17 +1142,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1051,17 +1171,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1077,17 +1200,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1103,17 +1229,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1129,17 +1258,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1155,17 +1287,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1181,17 +1316,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1207,17 +1345,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1233,17 +1374,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1259,17 +1403,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]
@@ -1285,17 +1432,20 @@
       "descriptions": [
         {
           "description_id": 1,
-          "description": "商品メイン説明",
+          "description_title": "商品メイン説明タイトル",
+          "description_content": "商品説明テスト",
           "description_type": "main"
         },
         {
           "description_id": 2,
-          "description": "商品サブ説明1",
+          "description_title": "商品サブ説明タイトル1",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         },
         {
           "description_id": 3,
-          "description": "商品サブ説明2",
+          "description_title": "商品サブ説明タイトル2",
+          "description_content": "商品説明テスト",
           "description_type": "sub"
         }
       ]

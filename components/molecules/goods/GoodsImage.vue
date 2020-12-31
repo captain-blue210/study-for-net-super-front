@@ -14,7 +14,9 @@ export default Vue.extend({
     return {
       classObject: {
         'h-auto': true,
-        'w-auto': true,
+        'w-full': true,
+        'max-w-full': true,
+        'pr-5': true,
       },
     };
   },

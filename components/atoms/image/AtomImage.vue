@@ -17,10 +17,3 @@ export default Vue.extend({
   },
 });
 </script>
-
-<style scoped>
-img {
-  height: 10vh;
-  width: 10vh;
-}
-</style>
