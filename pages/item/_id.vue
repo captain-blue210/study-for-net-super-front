@@ -13,12 +13,18 @@
       <AtomText
         :text="item.descriptions[0].description_content"
         :classObject="goodsMainDescription"
-        :key="item.descriptions[0].description_id"
+        :key="item.descriptions[0].id"
       />
+      <Table
+        :cells="item.descriptions"
+        :tableRowClassObject="tableRowClassObject"
+        :tableCellClassObject="tableCellClassObject"
+        :class="tableClassObject"
+      ></Table>
       <table class="border-collapse border row-start-6 row-end-7 mt-5 w-full">
         <tr
           v-for="(description, index) in item.descriptions"
-          :key="description.description_id"
+          :key="description.id"
           class="border-2 border-gray-300"
         >
           <td v-if="index != 0" class="p-2 w-1/4 bg-gray-200">{{description.description_title}}</td>
@@ -33,6 +39,7 @@
 import Vue from 'vue';
 import AtomText from '~/components/atoms/text/AtomText.vue';
 import AtomHeader from '~/components/atoms/header/AtomHeader.vue';
+import Table from '~/components/organisms/table/Table.vue';
 import ROUTES from '~/routes/api';
 
 type Item = {
@@ -59,6 +66,7 @@ export default Vue.extend({
   data() {
     return {
       item: {},
+      descriptions: {},
       goodsImgClass: {
         'col-start-1': true,
         'col-end-2': true,
@@ -127,8 +135,25 @@ export default Vue.extend({
         'text-left': true,
         'mt-3': true,
       },
-      goodsDetailClass: {
-        'text-3xl': true,
+      tableClassObject: {
+        'border-collapse': true,
+        border: true,
+        'row-start-6': true,
+        'row-end-7': true,
+        'mt-5': true,
+        'w-full': true,
+      },
+      tableRowClassObject: {
+        'border-collapse': true,
+        border: true,
+        'row-start-6': true,
+        'row-end-7': true,
+        'mt-5': true,
+        'w-full': true,
+      },
+      tableCellClassObject: {
+        'border-2': true,
+        'border-gray-300': true,
       },
     };
   },
@@ -139,6 +164,7 @@ export default Vue.extend({
     await $axios.get(`${ROUTES.GET.ITEM}/${goodsId}`).then((res) => {
       item = res.data;
     });
+
     return { item: item };
   },
 });
