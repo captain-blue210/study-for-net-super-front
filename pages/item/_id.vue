@@ -15,12 +15,6 @@
         :classObject="goodsMainDescription"
         :key="item.descriptions[0].id"
       />
-      <Table
-        :cells="item.descriptions"
-        :tableRowClassObject="tableRowClassObject"
-        :tableCellClassObject="tableCellClassObject"
-        :class="tableClassObject"
-      ></Table>
       <table class="border-collapse border row-start-6 row-end-7 mt-5 w-full">
         <tr
           v-for="(description, index) in item.descriptions"
