@@ -1,6 +1,6 @@
 import { Item } from '@/types/goods/Item';
 import { mount, RouterLinkStub } from '@vue/test-utils';
-import CatalogItem from '~/components/organisms/goods/catalogItem.vue';
+import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import Catalog from '~/pages/search/Catalog.vue';
 
 describe('Catalog', () => {

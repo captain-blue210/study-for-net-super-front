@@ -4,15 +4,7 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-  name:"",
-  components: {
-  },
-  data: function () {
-    return {
-      },
-    };
-  },
-  props: {
-  },
+  name: '',
+  components: {},
 });
 </script>
