@@ -1,16 +1,7 @@
-import { mount } from '@vue/test-utils';
+import { Item } from '@/types/goods/Item';
+import { mount, RouterLinkStub } from '@vue/test-utils';
 import CatalogItem from '~/components/organisms/goods/catalogItem.vue';
 import Catalog from '~/pages/search/Catalog.vue';
-
-type Item = {
-  id: number;
-  goodsName: string;
-  goodsBrand: string;
-  saleUnit: string;
-  goodsImgUri: string;
-  excludingTaxPrice: number;
-  includingTaxPrice: number;
-};
 
 describe('Catalog', () => {
   describe('display 47 items', () => {
@@ -20,6 +11,9 @@ describe('Catalog', () => {
         propsData: {
           items: items,
           totalCount: items.length,
+        },
+        stubs: {
+          NuxtLink: RouterLinkStub,
         },
       });
       const catalogItems = wrapper.findAllComponents(CatalogItem);
@@ -35,6 +29,9 @@ describe('Catalog', () => {
           items: items,
           totalCount: items.length,
         },
+        stubs: {
+          NuxtLink: RouterLinkStub,
+        },
       });
       const catalogItems = wrapper.findAllComponents(CatalogItem);
       expect(catalogItems.length).toBe(48);
@@ -48,6 +45,9 @@ describe('Catalog', () => {
         propsData: {
           items: items,
           totalCount: items.length,
+        },
+        stubs: {
+          NuxtLink: RouterLinkStub,
         },
       });
       const catalogItems = wrapper.findAllComponents(CatalogItem);
