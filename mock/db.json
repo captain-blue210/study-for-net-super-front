@@ -1,7 +1,48 @@
 {
+  "cart": [
+    {
+      "cartId": 1,
+      "userId": 1,
+      "goodsSubtotalIncludingTaxPrice": 2107,
+      "packingFee": 0,
+      "shippingFee": 330,
+      "subtotalIncludingTaxPrice": 2437,
+      "subtotalNonTaxable": 0,
+      "subtotalInternalTax": 2437,
+      "totalIncludingTaxPrice": 2437,
+      "createdAt": "2021-01-02 14:04:00",
+      "updatedAt": "2021-01-02 14:04:00",
+      "cartDetail": [
+        {
+          "cartId": 1,
+          "goodsId": 1,
+          "goodsName": "テスト商品1",
+          "goodsBrand": "テストメーカー",
+          "saleUnit": "90g×2",
+          "goodsImgUri": "test2.jpg",
+          "excludingTaxPrice": 340,
+          "includingTaxPrice": 367,
+          "goodsQuantity": 4,
+          "goodsTotalIncludingTaxPrice": 1468
+        },
+        {
+          "cartId": 1,
+          "goodsId": 2,
+          "goodsName": "テスト商品2",
+          "goodsBrand": "テストメーカー",
+          "saleUnit": "90g×2",
+          "goodsImgUri": "test2.jpg",
+          "excludingTaxPrice": 198,
+          "includingTaxPrice": 213,
+          "goodsQuantity": 3,
+          "goodsTotalIncludingTaxPrice": 639
+        }
+      ]
+    }
+  ],
   "goods": [
     {
-      "id": 1,
+      "goodsId": 1,
       "goodsName": "テスト商品1",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -10,27 +51,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 2,
+      "goodsId": 2,
       "goodsName": "テスト商品2",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -39,27 +80,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 3,
+      "goodsId": 3,
       "goodsName": "テスト商品3",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -68,27 +109,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 4,
+      "goodsId": 4,
       "goodsName": "テスト商品4",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -97,27 +138,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 5,
+      "goodsId": 5,
       "goodsName": "テスト商品5",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -126,27 +167,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 6,
+      "goodsId": 6,
       "goodsName": "テスト商品6",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -155,27 +196,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 7,
+      "goodsId": 7,
       "goodsName": "テスト商品7",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -184,27 +225,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 8,
+      "goodsId": 8,
       "goodsName": "テスト商品8",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -213,27 +254,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 9,
+      "goodsId": 9,
       "goodsName": "テスト商品9",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -242,27 +283,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 10,
+      "goodsId": 10,
       "goodsName": "テスト商品10",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -271,27 +312,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 11,
+      "goodsId": 11,
       "goodsName": "テスト商品11",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -300,27 +341,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 12,
+      "goodsId": 12,
       "goodsName": "テスト商品12",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -329,27 +370,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 13,
+      "goodsId": 13,
       "goodsName": "テスト商品13",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -358,27 +399,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 14,
+      "goodsId": 14,
       "goodsName": "テスト商品14",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -387,27 +428,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 15,
+      "goodsId": 15,
       "goodsName": "テスト商品15",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -416,27 +457,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 16,
+      "goodsId": 16,
       "goodsName": "テスト商品16",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -445,27 +486,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 17,
+      "goodsId": 17,
       "goodsName": "テスト商品17",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -474,27 +515,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 18,
+      "goodsId": 18,
       "goodsName": "テスト商品18",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -503,27 +544,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 19,
+      "goodsId": 19,
       "goodsName": "テスト商品19",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -532,27 +573,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 20,
+      "goodsId": 20,
       "goodsName": "テスト商品20",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -561,27 +602,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 21,
+      "goodsId": 21,
       "goodsName": "テスト商品21",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -590,27 +631,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 22,
+      "goodsId": 22,
       "goodsName": "テスト商品22",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -619,27 +660,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 23,
+      "goodsId": 23,
       "goodsName": "テスト商品23",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -648,27 +689,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 24,
+      "goodsId": 24,
       "goodsName": "テスト商品24",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -677,27 +718,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 25,
+      "goodsId": 25,
       "goodsName": "テスト商品25",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -706,27 +747,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 26,
+      "goodsId": 26,
       "goodsName": "テスト商品26",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -735,27 +776,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 27,
+      "goodsId": 27,
       "goodsName": "テスト商品27",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -764,27 +805,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 28,
+      "goodsId": 28,
       "goodsName": "テスト商品28",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -793,27 +834,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 29,
+      "goodsId": 29,
       "goodsName": "テスト商品29",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -822,27 +863,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 30,
+      "goodsId": 30,
       "goodsName": "テスト商品30",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -851,27 +892,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 31,
+      "goodsId": 31,
       "goodsName": "テスト商品31",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -880,27 +921,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 32,
+      "goodsId": 32,
       "goodsName": "テスト商品32",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -909,27 +950,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 33,
+      "goodsId": 33,
       "goodsName": "テスト商品33",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -938,27 +979,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 34,
+      "goodsId": 34,
       "goodsName": "テスト商品34",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -967,27 +1008,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 35,
+      "goodsId": 35,
       "goodsName": "テスト商品35",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -996,27 +1037,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 36,
+      "goodsId": 36,
       "goodsName": "テスト商品36",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1025,27 +1066,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 37,
+      "goodsId": 37,
       "goodsName": "テスト商品37",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1054,27 +1095,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 38,
+      "goodsId": 38,
       "goodsName": "テスト商品38",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1083,27 +1124,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 39,
+      "goodsId": 39,
       "goodsName": "テスト商品39",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1112,27 +1153,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 40,
+      "goodsId": 40,
       "goodsName": "テスト商品40",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1141,27 +1182,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 41,
+      "goodsId": 41,
       "goodsName": "テスト商品41",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1170,27 +1211,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 42,
+      "goodsId": 42,
       "goodsName": "テスト商品42",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1199,27 +1240,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 43,
+      "goodsId": 43,
       "goodsName": "テスト商品43",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1228,27 +1269,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 44,
+      "goodsId": 44,
       "goodsName": "テスト商品44",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1257,27 +1298,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 45,
+      "goodsId": 45,
       "goodsName": "テスト商品45",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1286,27 +1327,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 46,
+      "goodsId": 46,
       "goodsName": "テスト商品46",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1315,27 +1356,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 47,
+      "goodsId": 47,
       "goodsName": "テスト商品47",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1344,27 +1385,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 48,
+      "goodsId": 48,
       "goodsName": "テスト商品48",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1373,27 +1414,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 49,
+      "goodsId": 49,
       "goodsName": "テスト商品49",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1402,27 +1443,27 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     },
     {
-      "id": 50,
+      "goodsId": 50,
       "goodsName": "テスト商品50",
       "goodsBrand": "テストメーカー",
       "saleUnit": "90g×2",
@@ -1431,22 +1472,22 @@
       "includingTaxPrice": 1080,
       "descriptions": [
         {
-          "id": 1,
-          "description_title": "商品メイン説明タイトル",
-          "description_content": "商品説明テスト",
-          "description_type": "main"
+          "goodsId": 1,
+          "descriptionTitle": "商品メイン説明タイトル",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "main"
         },
         {
-          "id": 2,
-          "description_title": "商品サブ説明タイトル1",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 2,
+          "descriptionTitle": "商品サブ説明タイトル1",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         },
         {
-          "id": 3,
-          "description_title": "商品サブ説明タイトル2",
-          "description_content": "商品説明テスト",
-          "description_type": "sub"
+          "goodsId": 3,
+          "descriptionTitle": "商品サブ説明タイトル2",
+          "descriptionContent": "商品説明テスト",
+          "descriptionType": "sub"
         }
       ]
     }

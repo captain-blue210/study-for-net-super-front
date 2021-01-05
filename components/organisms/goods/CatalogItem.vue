@@ -25,7 +25,7 @@ export default Vue.extend({
   },
   data() {
     return {
-      itemDetailPath: `${ROUTES.GET.ITEM}/${this.item.id}`,
+      itemDetailPath: `${ROUTES.GET.ITEM}/${this.item.goodsId}`,
     };
   },
   props: {

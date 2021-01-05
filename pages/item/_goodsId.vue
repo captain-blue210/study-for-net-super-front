@@ -11,18 +11,18 @@
     <div class="col-start-1 col-end-3">
       <AtomText :text="'商品説明'" :classObject="goodsDescriptionLabel" />
       <AtomText
-        :text="item.descriptions[0].description_content"
+        :text="item.descriptions[0].descriptionContent"
         :classObject="goodsMainDescription"
-        :key="item.descriptions[0].id"
+        :key="item.descriptions[0].goodsId"
       />
       <table class="border-collapse border row-start-6 row-end-7 mt-5 w-full">
         <tr
           v-for="(description, index) in item.descriptions"
-          :key="description.id"
+          :key="description.goodsId"
           class="border-2 border-gray-300"
         >
-          <td v-if="index != 0" class="p-2 w-1/4 bg-gray-200">{{description.description_title}}</td>
-          <td v-if="index != 0" class="p-2 w-4/5">{{description.description_content}}</td>
+          <td v-if="index != 0" class="p-2 w-1/4 bg-gray-200">{{description.descriptionTitle}}</td>
+          <td v-if="index != 0" class="p-2 w-4/5">{{description.descriptionContent}}</td>
         </tr>
       </table>
     </div>
@@ -35,23 +35,8 @@ import AtomText from '~/components/atoms/text/AtomText.vue';
 import AtomHeader from '~/components/atoms/header/AtomHeader.vue';
 import Table from '~/components/organisms/table/Table.vue';
 import ROUTES from '~/routes/api';
-
-type Item = {
-  id: number;
-  goodsName: string;
-  goodsBrand: string;
-  saleUnit: string;
-  goodsImgUri: string;
-  excludingTaxPrice: number;
-  includingTaxPrice: number;
-  descriptions: Description[];
-};
-
-type Description = {
-  description_id: number;
-  description: string;
-  description_type: string;
-};
+import { Item } from '~/types/goods/item';
+import { Description } from '~/types/goods/description';
 
 export default Vue.extend({
   components: {
@@ -152,11 +137,11 @@ export default Vue.extend({
     };
   },
   async asyncData({ $axios, route }) {
-    const goodsId: string = route.params.id;
+    const goodsId: string = route.params.goodsId;
     let item = {} as Item;
 
     await $axios.get(`${ROUTES.GET.ITEM}/${goodsId}`).then((res) => {
-      item = res.data;
+      item = res.data[0];
     });
 
     return { item: item };
