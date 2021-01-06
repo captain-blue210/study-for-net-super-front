@@ -1,7 +1,7 @@
 <template>
   <section class="h-full row-start-2 row-end-3 col-start-3 col-end-13">
     <div class="grid grid-cols-4">
-      <CatalogItem :item="item" v-for="item in items" :key="item.id" />
+      <CatalogItem :item="item" v-for="item in items" :key="item.goodsId" />
     </div>
     <client-only>
       <Paginate

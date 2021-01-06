@@ -1,7 +1,8 @@
-import { Item } from '@/types/goods/Item';
 import { mount, RouterLinkStub } from '@vue/test-utils';
 import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import Catalog from '~/pages/search/Catalog.vue';
+import { blankDescription } from '~/types/goods/description';
+import { Item } from '~/types/goods/item';
 
 describe('Catalog', () => {
   describe('display 47 items', () => {
@@ -60,13 +61,14 @@ const initialItemsData = (maxSize: number): Item[] => {
   var items: Item[] = [];
   for (let i = 1; i <= maxSize; i++) {
     items.push({
-      id: i,
+      goodsId: i,
       goodsName: `テスト商品${i}`,
       goodsBrand: 'テストメーカー',
       saleUnit: '90g×2',
       goodsImgUri: 'test.jpg',
       excludingTaxPrice: 1000,
       includingTaxPrice: 1080,
+      descriptions: [blankDescription],
     });
   }
   return items;

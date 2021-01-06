@@ -19,6 +19,7 @@ export default {
       src: '~/plugins/vuejs-paginate.js',
       mode: 'client',
     },
+    '~/plugins/filter.ts',
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
