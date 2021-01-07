@@ -4,14 +4,12 @@ import AtomText from '~/components/atoms/text/AtomText.vue';
 describe('AtomText', () => {
   test('renders props.goodsName', () => {
     const goodsName = 'テスト商品';
-    const wrapper = mount(AtomText,{
+    const wrapper = mount(AtomText, {
       propsData: {
         text: goodsName,
-        classObject: {
-          'text-base': true
-        }
-      }
-    })
-    expect(wrapper.text()).toBe('テスト商品')
-  })
-})
+        cssClass: 'text-base',
+      },
+    });
+    expect(wrapper.text()).toBe('テスト商品');
+  });
+});
