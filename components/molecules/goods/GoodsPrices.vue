@@ -2,7 +2,10 @@
   <div>
     <AtomText :text="excludingTaxPrice" :classObject="excludingTaxPriceClass" />
     <span class="text-sm text-red-500 inline">円</span>
-    <AtomText :text="decoratedIncTaxPrice" :classObject="includingTaxPriceClass" />
+    <AtomText
+      :text="decoratedIncTaxPrice"
+      :classObject="includingTaxPriceClass"
+    />
   </div>
 </template>
 
@@ -17,7 +20,7 @@ export default Vue.extend({
   },
   data: function () {
     return {
-      decoratedIncTaxPrice: `(税込 ${this.excludingTaxPrice}円)`,
+      decoratedIncTaxPrice: `(税込 ${this.includingTaxPrice}円)`,
       excludingTaxPriceClass: {
         'text-red-500': true,
         'text-2xl': true,
