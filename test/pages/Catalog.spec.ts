@@ -2,7 +2,7 @@ import { mount, RouterLinkStub } from '@vue/test-utils';
 import CatalogItem from '~/components/organisms/goods/CatalogItem.vue';
 import Catalog from '~/pages/search/Catalog.vue';
 import { blankDescription } from '~/types/goods/description';
-import { Item } from '~/types/goods/item';
+import { Item } from '~/types/goods/Item';
 
 describe('Catalog', () => {
   describe('display 47 items', () => {
