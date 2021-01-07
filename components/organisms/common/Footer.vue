@@ -1,6 +1,6 @@
 <template>
   <footer class="row-start-3 row-end-4 col-start-1 col-end-13 bg-red-200">
-    <AtomText text="Footer" :classObject="footerClass" />
+    <AtomText text="Footer" :cssClass="'text-lg'" />
   </footer>
 </template>
 <script lang="ts">
@@ -10,13 +10,6 @@ export default Vue.extend({
   name: 'Footer',
   components: {
     AtomText,
-  },
-  data: function () {
-    return {
-      footerClass: {
-        'text-lg': true,
-      },
-    };
   },
 });
 </script>

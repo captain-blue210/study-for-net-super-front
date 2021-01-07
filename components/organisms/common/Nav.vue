@@ -1,6 +1,6 @@
 <template>
   <nav class="row-start-2 row-end-3 col-start-1 col-end-3 bg-gray-200 h-screen">
-    <AtomText text="Nav" :classObject="navClass" />
+    <AtomText text="Nav" :cssClass="'text-lg'" />
   </nav>
 </template>
 <script lang="ts">
@@ -10,13 +10,6 @@ export default Vue.extend({
   name: 'Nav',
   components: {
     AtomText,
-  },
-  data: function () {
-    return {
-      navClass: {
-        'text-lg': true,
-      },
-    };
   },
 });
 </script>

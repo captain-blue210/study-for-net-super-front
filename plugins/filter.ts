@@ -1,9 +1,7 @@
-import Vue from 'vue';
+export const formatPrice = (priceNum: number): string => {
+  return priceNum.toLocaleString();
+};
 
-Vue.filter('formatPrice', (pricNum: number): string => {
-  return pricNum.toLocaleString();
-});
-
-Vue.filter('formatPriceWithUnit', (pricNum: number): string => {
-  return `${pricNum.toLocaleString()}円`;
-});
+export const formatPriceWithUnit = (priceNum: number): string => {
+  return `${priceNum.toLocaleString()}円`;
+};
