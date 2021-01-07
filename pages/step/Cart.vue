@@ -1,6 +1,11 @@
 <template>
-  <div :class="layoutClass">
-    <AtomText :text="'買い物かご'" :classObject="cartTitleClass" />
+  <div
+    class="grid grid-rows-12 grid-cols-12 row-start-2 row-end-3 col-start-1 col-end-13 h-full"
+  >
+    <AtomText
+      :text="'買い物かご'"
+      :cssClass="'row-start-1 row-end-2 col-start-2 col-end-12 text-3xl py-5'"
+    />
     <CartItemList :cart="cart" />
     <CartPaymentBreakdown :cart="cart" />
   </div>
@@ -22,28 +27,6 @@ export default Vue.extend({
     AtomText,
     CartPaymentBreakdown,
     CartItemList,
-  },
-  data() {
-    return {
-      cartTitleClass: {
-        'row-start-1': true,
-        'row-end-2': true,
-        'col-start-2': true,
-        'col-end-12': true,
-        'text-3xl': true,
-        'py-5': true,
-      },
-      layoutClass: {
-        grid: true,
-        'grid-rows-12': true,
-        'grid-cols-12': true,
-        'row-start-2': true,
-        'row-end-3': true,
-        'col-start-1': true,
-        'col-end-13': true,
-        'h-full': true,
-      },
-    };
   },
   async asyncData({ $axios }) {
     const mockCartID: number = 1;

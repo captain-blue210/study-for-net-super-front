@@ -1,5 +1,5 @@
 <template>
-  <table :class="cartTableClass">
+  <table class="table-auto row-start-2 row-end-3 col-start-3 col-end-12">
     <thead>
       <th class="text-center">
         <span>商品</span>
@@ -27,38 +27,58 @@
             :to="`/${itemDetailPath}/${item.goodsId}`"
             class="h-24 w-24 row-start-1 col-start-1 col-end-2"
           >
-            <AtomImage :classObject="goodsImgClass" :imgUri="item.goodsImgUri" />
+            <AtomImage :cssClass="''" :imgUri="item.goodsImgUri" />
           </nuxt-link>
           <div class="flex flex-col">
-            <AtomText :text="item.goodsBrand" :classObject="goodsBrandClass" />
+            <AtomText
+              :text="item.goodsBrand"
+              :cssClass="'row-start-1 row-end-2 col-start-1 col-end-4 text-xs mt-2'"
+            />
             <nuxt-link
               :to="`/${itemDetailPath}/${item.goodsId}`"
               class="row-start-2 row-end-3 col-start-1 col-end-4"
             >
-              <AtomText :text="item.goodsName" :classObject="goodsNameClass" />
+              <AtomText
+                :text="item.goodsName"
+                :cssClass="'text-base font-medium'"
+              />
             </nuxt-link>
-            <AtomText :text="item.saleUnit" :classObject="saleUnitClass" />
+            <AtomText
+              :text="item.saleUnit"
+              :cssClass="'row-start-3 row-start-4 col-start-1 col-end-4 text-xs'"
+            />
           </div>
         </td>
         <td>
-          <p :class="excludingTaxPriceClass">{{item.excludingTaxPrice | formatPriceWithUnit}}</p>
+          <p class="text-center">
+            {{ item.excludingTaxPrice | formatPriceWithUnit }}
+          </p>
         </td>
         <td>
-          <p :class="includingTaxPriceClass">{{item.includingTaxPrice | formatPriceWithUnit}}</p>
+          <p class="text-center">
+            {{ item.includingTaxPrice | formatPriceWithUnit }}
+          </p>
         </td>
         <td class="w-32">
           <div class="table">
-            <span class="w-10 bg-gray-400 text-2xl text-center table-cell rounded-l">-</span>
+            <span
+              class="w-10 bg-gray-400 text-2xl text-center table-cell rounded-l"
+              >-</span
+            >
             <span
               class="w-12 table-cell text-center align-middle border-t-2 border-b-2"
-            >{{item.goodsQuantity}}</span>
-            <span class="w-10 bg-gray-400 text-2xl text-center table-cell rounded-r">+</span>
+              >{{ item.goodsQuantity }}</span
+            >
+            <span
+              class="w-10 bg-gray-400 text-2xl text-center table-cell rounded-r"
+              >+</span
+            >
           </div>
         </td>
         <td>
-          <p
-            :class="goodsTotalIncludingTaxPriceClass"
-          >{{item.goodsTotalIncludingTaxPrice | formatPriceWithUnit}}</p>
+          <p class="text-center text-base">
+            {{ item.goodsTotalIncludingTaxPrice | formatPriceWithUnit }}
+          </p>
         </td>
         <td class="text-center">
           <button class="border border-gray-500 rounded px-4 py-2">削除</button>
@@ -71,54 +91,19 @@
 <script lang="ts">
 import Vue from 'vue';
 import { ROUTES } from '~/routes/api';
+import AtomImage from '~/components/atoms/image/AtomImage.vue';
+import AtomText from '~/components/atoms/text/AtomText.vue';
+import { formatPrice, formatPriceWithUnit } from '~/plugins/filter';
 
 export default Vue.extend({
   name: 'CartItemList',
-  components: {},
+  components: {
+    AtomText,
+    AtomImage,
+  },
   data() {
     return {
       itemDetailPath: `${ROUTES.GET.ITEM}`,
-      cartTableClass: {
-        'table-auto': true,
-        'row-start-2': true,
-        'row-end-3': true,
-        'col-start-3': true,
-        'col-end-12': true,
-      },
-      goodsImgClass: {},
-      goodsBrandClass: {
-        'row-start-1': true,
-        'row-end-2': true,
-        'col-start-1': true,
-        'col-end-4': true,
-        'text-xs': true,
-        'mt-2': true,
-      },
-      goodsNameClass: {
-        'text-base': true,
-        'font-medium': true,
-      },
-      saleUnitClass: {
-        'row-start-3': true,
-        'row-end-4': true,
-        'col-start-1': true,
-        'col-end-4': true,
-        'text-xs': true,
-      },
-      excludingTaxPriceClass: {
-        'text-center': true,
-      },
-      includingTaxPriceClass: {
-        'text-center': true,
-      },
-      goodsQuantityClass: {
-        'text-center': true,
-        'text-base': true,
-      },
-      goodsTotalIncludingTaxPriceClass: {
-        'text-center': true,
-        'text-base': true,
-      },
     };
   },
   props: {
@@ -126,6 +111,10 @@ export default Vue.extend({
       type: Object,
       required: true,
     },
+  },
+  filters: {
+    formatPrice,
+    formatPriceWithUnit,
   },
 });
 </script>
