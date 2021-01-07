@@ -1,5 +1,5 @@
 <template>
-  <p :class="classObject">{{text}}</p>
+  <p :class="cssClass">{{ text }}</p>
 </template>
 
 <script lang="ts">
@@ -11,8 +11,8 @@ export default Vue.extend({
       type: [String, Number],
       required: true,
     },
-    classObject: {
-      type: Object,
+    cssClass: {
+      type: String,
       required: true,
     },
   },

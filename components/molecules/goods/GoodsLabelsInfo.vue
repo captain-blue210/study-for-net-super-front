@@ -1,7 +1,7 @@
 <template>
   <div>
-    <AtomText :text="goodsName" :classObject="goodsNameClass" />
-    <AtomText :text="saleUnit" :classObject="saleUnitClass" />
+    <AtomText :text="goodsName" :cssClass="'text-base'" />
+    <AtomText :text="saleUnit" :cssClass="'text-sm'" />
   </div>
 </template>
 
@@ -13,16 +13,6 @@ export default Vue.extend({
   name: 'GoodsLabelsInfo',
   components: {
     AtomText,
-  },
-  data: function () {
-    return {
-      goodsNameClass: {
-        'text-base': true,
-      },
-      saleUnitClass: {
-        'text-sm': true,
-      },
-    };
   },
   props: {
     goodsName: {
