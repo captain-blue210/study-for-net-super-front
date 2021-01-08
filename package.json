@@ -7,8 +7,8 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "test": "jest --watch",
-    "mock": "json-server --watch ./mock/db.json --routes ./mock/routes.json --port 3001"
+    "test-all": "jest",
+    "test": "jest --watch"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
@@ -33,6 +33,7 @@
     "jest": "^26.5.0",
     "json-server": "^0.16.3",
     "prettier": "^2.2.1",
+    "prettier-plugin-tailwind": "^2.2.8",
     "ts-jest": "^26.4.1",
     "vue-jest": "^3.0.4"
   },
