@@ -1,5 +1,6 @@
 const jsonServer = require("json-server");
 const fs = require("fs");
+const cors = require("cors");
 
 const server = jsonServer.create();
 const _router = jsonServer.router('./db.json');
@@ -7,6 +8,16 @@ const middlewares = jsonServer.defaults();
 
 const db = JSON.parse(fs.readFileSync('./db.json', 'utf-8'));
 const routes = JSON.parse(fs.readFileSync('./routes.json', 'utf-8'));
+
+server.use(
+   cors({
+      origin: true,
+      credentials: true,
+      preflightContinue: false,
+      methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+   })
+);
+server.options('*', cors());
 
 server.use(jsonServer.bodyParser);
 // cart add API mock, always returns success.
