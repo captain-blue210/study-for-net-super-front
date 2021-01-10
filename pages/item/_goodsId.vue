@@ -22,6 +22,10 @@
         :text="`(税込 ${item.includingTaxPrice}円)`"
         :cssClass="'row-start-4 row-end-5 col-start-2 col-end-4 pt-12 text-right'"
       />
+      <CartAddButton
+        :goodsId="item.goodsId"
+        class="row-start-4 row-end-5 col-start-5 col-end-8 h-10 w-full"
+      />
     </div>
     <div class="col-start-1 col-end-3">
       <AtomText
@@ -59,10 +63,12 @@ import Table from '~/components/organisms/table/Table.vue';
 import ROUTES from '~/routes/api';
 import { Item } from '~/types/goods/item';
 import { Description } from '~/types/goods/description';
+import CartAddButton from '~/components/molecules/cart/CartAddButton.vue';
 
 export default Vue.extend({
   components: {
     AtomText,
+    CartAddButton,
   },
   data() {
     return {

@@ -4,6 +4,9 @@ export const ROUTES = {
     ITEM: 'item',
     CART: 'step/cart',
   },
+  POST: {
+    CART: 'cart/add',
+  },
 };
 
 export default ROUTES;
