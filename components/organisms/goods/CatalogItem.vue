@@ -1,12 +1,15 @@
 <template>
-  <nuxt-link :to="itemDetailPath">
-    <GoodsImage :imgUri="item.goodsImgUri" />
-    <GoodsLabelsInfo :goodsName="item.goodsName" :saleUnit="item.saleUnit" />
-    <GoodsPrices
-      :excludingTaxPrice="item.excludingTaxPrice"
-      :includingTaxPrice="item.includingTaxPrice"
-    />
-  </nuxt-link>
+  <div>
+    <nuxt-link :to="itemDetailPath">
+      <GoodsImage :imgUri="item.goodsImgUri" />
+      <GoodsLabelsInfo :goodsName="item.goodsName" :saleUnit="item.saleUnit" />
+      <GoodsPrices
+        :excludingTaxPrice="item.excludingTaxPrice"
+        :includingTaxPrice="item.includingTaxPrice"
+      />
+    </nuxt-link>
+    <CartAddButton :goodsId="item.goodsId" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -15,6 +18,7 @@ import GoodsImage from '~/components/molecules/goods/GoodsImage.vue';
 import GoodsLabelsInfo from '~/components/molecules/goods/GoodsLabelsInfo.vue';
 import GoodsPrices from '~/components/molecules/goods/GoodsPrices.vue';
 import ROUTES from '~/routes/api';
+import CartAddButton from '~/components/molecules/cart/CartAddButton.vue';
 
 export default Vue.extend({
   name: 'CatalogItem',
@@ -22,6 +26,7 @@ export default Vue.extend({
     GoodsImage,
     GoodsLabelsInfo,
     GoodsPrices,
+    CartAddButton,
   },
   data() {
     return {
