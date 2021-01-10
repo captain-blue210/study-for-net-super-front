@@ -2,23 +2,39 @@
   <div class="grid grid-rows-12 grid-cols-2 col-start-4 col-end-12 mt-10">
     <GoodsImage :imgUri="item.goodsImgUri" />
     <div class="grid grid-rows-5 grid-cols-7">
-      <AtomText :text="item.goodsBrand" :classObject="goodsBrandClass" />
-      <AtomText :text="item.goodsName" :classObject="goodsNameClass" />
-      <AtomText :text="item.saleUnit" :classObject="saleUnitClass" />
+      <AtomText
+        :text="item.goodsBrand"
+        :cssClass="'row-start-1 row-end-2 col-start-1 col-end-4 text-xs pt-5'"
+      />
+      <AtomText
+        :text="item.goodsName"
+        :cssClass="'row-start-2 row-end-3 col-start-1 col-end-4 text-3xl'"
+      />
+      <AtomText
+        :text="item.saleUnit"
+        :cssClass="'row-start-2 row-end-3 col-start-1 col-end-7 text-xs self-end pb-2 border-b-2 align-top'"
+      />
       <AtomText
         :text="`${item.excludingTaxPrice}円`"
-        :classObject="excludingTaxPriceClass"
+        :cssClass="'row-start-4 row-end-5 col-start-2 col-end-4 text-red-500 text-4xl'"
       />
       <AtomText
         :text="`(税込 ${item.includingTaxPrice}円)`"
-        :classObject="includingTaxPriceClass"
+        :cssClass="'row-start-4 row-end-5 col-start-2 col-end-4 pt-12 text-right'"
+      />
+      <CartAddButton
+        :goodsId="item.goodsId"
+        class="row-start-4 row-end-5 col-start-5 col-end-8 h-10 w-full"
       />
     </div>
     <div class="col-start-1 col-end-3">
-      <AtomText :text="'商品説明'" :classObject="goodsDescriptionLabel" />
+      <AtomText
+        :text="'商品説明'"
+        :cssClass="'row-start-3 row-start-4 col-start-1 col-end-13 text-left text-3xl'"
+      />
       <AtomText
         :text="item.descriptions[0].descriptionContent"
-        :classObject="goodsMainDescription"
+        :cssClass="'row-start-4 row-end-5 col-start-2 col-end-13 text-left mt-3'"
         :key="item.descriptions[0].goodsId"
       />
       <table class="border-collapse border row-start-6 row-end-7 mt-5 w-full">
@@ -47,103 +63,17 @@ import Table from '~/components/organisms/table/Table.vue';
 import ROUTES from '~/routes/api';
 import { Item } from '~/types/goods/item';
 import { Description } from '~/types/goods/description';
+import CartAddButton from '~/components/molecules/cart/CartAddButton.vue';
 
 export default Vue.extend({
   components: {
     AtomText,
+    CartAddButton,
   },
   data() {
     return {
       item: {},
       descriptions: {},
-      goodsImgClass: {
-        'col-start-1': true,
-        'col-end-2': true,
-      },
-      goodsBrandClass: {
-        'row-start-1': true,
-        'row-end-2': true,
-        'col-start-1': true,
-        'col-end-4': true,
-        'text-xs': true,
-        'pt-5': true,
-      },
-      goodsNameClass: {
-        'row-start-2': true,
-        'row-end-3': true,
-        'col-start-1': true,
-        'col-end-4': true,
-        'text-3xl': true,
-      },
-      saleUnitClass: {
-        'row-start-2': true,
-        'row-end-3': true,
-        'col-start-1': true,
-        'col-end-7': true,
-        'text-xs': true,
-        'self-end': true,
-        'pb-2': true,
-        'border-b-2': true,
-        'align-top': true,
-      },
-      excludingTaxPriceClass: {
-        'row-start-4': true,
-        'row-end-5': true,
-        'col-start-2': true,
-        'col-end-4': true,
-        'text-red-500': true,
-        'text-4xl': true,
-      },
-      includingTaxPriceClass: {
-        'row-start-4': true,
-        'row-end-5': true,
-        'col-start-2': true,
-        'col-end-4': true,
-        'pt-12': true,
-        'text-right': true,
-      },
-      goodsPriceClass: {
-        'row-start-2': true,
-        'row-start-3': true,
-        'col-start-2': true,
-        'col-end-3': true,
-      },
-      goodsDescriptionLabel: {
-        'row-start-3': true,
-        'row-start-4': true,
-        'col-start-1': true,
-        'col-end-13': true,
-        'text-left': true,
-        'text-3xl': true,
-      },
-      goodsMainDescription: {
-        'row-start-4': true,
-        'row-start-5': true,
-        'col-start-2': true,
-        'col-end-13': true,
-        'text-left': true,
-        'mt-3': true,
-      },
-      tableClassObject: {
-        'border-collapse': true,
-        border: true,
-        'row-start-6': true,
-        'row-end-7': true,
-        'mt-5': true,
-        'w-full': true,
-      },
-      tableRowClassObject: {
-        'border-collapse': true,
-        border: true,
-        'row-start-6': true,
-        'row-end-7': true,
-        'mt-5': true,
-        'w-full': true,
-      },
-      tableCellClassObject: {
-        'border-2': true,
-        'border-gray-300': true,
-      },
     };
   },
   async asyncData({ $axios, route }) {
