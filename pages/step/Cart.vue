@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-rows-12 grid-cols-12 row-start-2 row-end-3 col-start-1 col-end-13 h-full"
+    class="grid grid-rows-12 grid-cols-12 row-start-2 row-end-3 col-start-1 col-end-13 h-screen"
   >
     <AtomText
       :text="'買い物かご'"
@@ -8,6 +8,7 @@
     />
     <CartItemList :cart="cart" />
     <CartPaymentBreakdown :cart="cart" />
+    <GoToOrderButton />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import CartPaymentBreakdown from '~/components/organisms/cart/CartPaymentBreakdo
 import CartItemList from '~/components/organisms/cart/CartItemList.vue';
 import { ROUTES } from '~/routes/api';
 import AtomText from '~/components/atoms/text/AtomText.vue';
+import GoToOrderButton from '~/components/molecules/cart/GoToOrderButton.vue';
 
 // TODO use composition API,
 export default Vue.extend({
@@ -27,6 +29,7 @@ export default Vue.extend({
     AtomText,
     CartPaymentBreakdown,
     CartItemList,
+    GoToOrderButton,
   },
   async asyncData({ $axios }) {
     const mockCartID: number = 1;
