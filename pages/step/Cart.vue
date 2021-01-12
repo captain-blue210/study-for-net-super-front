@@ -19,7 +19,7 @@ import CartPaymentBreakdown from '~/components/organisms/cart/CartPaymentBreakdo
 import CartItemList from '~/components/organisms/cart/CartItemList.vue';
 import { ROUTES } from '~/routes/api';
 import AtomText from '~/components/atoms/text/AtomText.vue';
-import GoToOrderButton from '~/components/molecules/cart/GoToOrderButton.vue';
+import GoToOrderButton from '~/components/molecules/common/button/GoToOrderButton.vue';
 
 // TODO use composition API,
 export default Vue.extend({

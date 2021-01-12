@@ -1,26 +1,12 @@
-import { createLocalVue, mount, RouterLinkStub } from '@vue/test-utils';
-import VueRouter from 'vue-router';
-import GoToOrderButton from '~/components/molecules/cart/GoToOrderButton.vue';
+import { mount, RouterLinkStub } from '@vue/test-utils';
+import GoToOrderButton from '~/components/molecules/common/button/GoToOrderButton.vue';
 
 describe('GoToOrderButton', () => {
-  const mocks = {
-    $router: {
-      push: () => {},
-    },
-  };
-
   it('should render href to payment page', () => {
-    const localVue = createLocalVue();
-    localVue.use(VueRouter);
-
-    const router = new VueRouter();
-
     const wrapper = mount(GoToOrderButton, {
       stubs: {
         NuxtLink: RouterLinkStub,
       },
-      localVue,
-      router,
     });
 
     expect(wrapper.findComponent(RouterLinkStub).props('to')).toEqual(
