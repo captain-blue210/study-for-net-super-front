@@ -1,8 +1,5 @@
 <template>
-  <nuxt-link
-    to="/step/confirm"
-    class="row-start-5 row-end-6 col-start-1 col-end-13 text-center"
-  >
+  <nuxt-link to="/step/confirm">
     <button class="btn-form btn-next">注文確認</button>
   </nuxt-link>
 </template>
