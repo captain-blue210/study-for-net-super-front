@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import CartAddButton from '~/components/molecules/cart/CartAddButton.vue';
+import CartAddButton from '~/components/molecules/common/button/CartAddButton.vue';
 
 describe('CartAddButton', () => {
   it('should show success message when it succeeded to add cart', async () => {

@@ -63,7 +63,7 @@ import Table from '~/components/organisms/table/Table.vue';
 import ROUTES from '~/routes/api';
 import { Item } from '~/types/goods/item';
 import { Description } from '~/types/goods/description';
-import CartAddButton from '~/components/molecules/cart/CartAddButton.vue';
+import CartAddButton from '~/components/molecules/common/button/CartAddButton.vue';
 
 export default Vue.extend({
   components: {

@@ -18,7 +18,7 @@ import GoodsImage from '~/components/molecules/goods/GoodsImage.vue';
 import GoodsLabelsInfo from '~/components/molecules/goods/GoodsLabelsInfo.vue';
 import GoodsPrices from '~/components/molecules/goods/GoodsPrices.vue';
 import ROUTES from '~/routes/api';
-import CartAddButton from '~/components/molecules/cart/CartAddButton.vue';
+import CartAddButton from '~/components/molecules/common/button/CartAddButton.vue';
 
 export default Vue.extend({
   name: 'CatalogItem',
