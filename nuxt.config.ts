@@ -21,6 +21,8 @@ export default {
     },
     '~/plugins/filter.ts',
     '~/plugins/fontawesome.js',
+    '~/plugins/axios.js',
+    '~/plugins/cookies-to-state.js',
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -35,7 +37,7 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', 'cookie-universal-nuxt'],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

@@ -1,5 +1,5 @@
 <template>
-  <div class="row-start-4 col-start-9 col-end-12">
+  <div>
     <AtomText :text="'お支払い内訳'" :cssClass="'text-lg'" />
     <div class="table w-full border-2 p-2">
       <div class="table-row-group">

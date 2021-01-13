@@ -1,13 +1,16 @@
 <template>
   <div
-    class="grid grid-rows-12 grid-cols-12 row-start-2 row-end-3 col-start-1 col-end-13 h-screen"
+    class="grid grid-rows-12 grid-cols-12 row-start-2 row-end-3 col-start-1 col-end-13"
   >
     <AtomText
       :text="'買い物かご'"
       :cssClass="'row-start-1 row-end-2 col-start-2 col-end-12 text-3xl py-5'"
     />
     <CartItemList :cart="cart" />
-    <CartPaymentBreakdown :cart="cart" />
+    <CartPaymentBreakdown
+      :cart="cart"
+      class="'row-start-4 row-end-5 col-start-9 col-end-12 w-full'"
+    />
     <GoToOrderButton />
   </div>
 </template>
@@ -31,10 +34,13 @@ export default Vue.extend({
     CartItemList,
     GoToOrderButton,
   },
-  async asyncData({ $axios }) {
-    const mockCartID: number = 1;
-    const cart: Cart[] = await $axios.$get(`${ROUTES.GET.CART}/${mockCartID}`);
-    return { cart: cart[0] };
+  computed: {
+    cart() {
+      return this.$store.getters.getCart;
+    },
+  },
+  async asyncData({ $axios, store }) {
+    await store.dispatch('fetchCart');
   },
 });
 </script>
