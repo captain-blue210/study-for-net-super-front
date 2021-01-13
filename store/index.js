@@ -2,7 +2,7 @@ import ROUTES from '~/routes/api';
 
 export const state = () => ({
   // TODO Is it better to have cartId?
-  carts: [],
+  cart: {},
   token: ''
 });
 
@@ -16,25 +16,31 @@ export const actions = {
   },
 
   async setToken({ commit }, payload) {
+    this.$cookies.set('token', payload);
     commit('mutateToken', payload);
+  },
+
+  async setPaymentMethod({ commit }, payload) {
+    commit('mutatePaymentMethod', payload);
   }
 };
 
 export const mutations = {
   mutateCart(state, newCart) {
-    const index = state.carts.findIndex(
-      (cart) => cart.cartId === newCart.cartId,
-    );
-    index >= 0 ? (state.carts[index] = newCart) : state.carts.push(newCart);
+    state.cart = newCart;
   },
 
   mutateToken(state, payload) {
     state.token = payload
+  },
+
+  mutatePaymentMethod(state, payload) {
+    state.cart = { ...state.cart, ...payload }
   }
 };
 
 export const getters = {
   getCart: (state) => {
-    return state.carts.find((cart) => cart.userId === Number(state.token));
+    return state.cart;
   },
 };

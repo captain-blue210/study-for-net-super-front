@@ -51,9 +51,11 @@ export default Vue.extend({
     },
   },
   methods: {
-    handlePickedPayment(value: string) {
+    async handlePickedPayment(value: string) {
       this.paymentMethod = value;
-      this.$store.dispatch('', { paymentMethod: this.paymentMethod });
+      await this.$store.dispatch('setPaymentMethod', {
+        paymentMethod: this.paymentMethod,
+      });
     },
   },
   async asyncData({ $axios, store }) {
