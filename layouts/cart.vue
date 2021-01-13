@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-rows-12 grid-cols-12 gap-1">
+  <div class="grid grid-rows-12 grid-cols-12 gap-1 h-screen">
     <Header />
     <Nuxt />
     <Footer />

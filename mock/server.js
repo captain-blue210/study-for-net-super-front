@@ -39,6 +39,18 @@ server.post('/cart/add', (req, res) => {
    }
 });
 
+server.get('/step/cart', (req, res) => {
+   if (req.method === 'GET') {
+      const token = req.headers.authorization.replace('Bearer ', '');
+
+      const cart = db.cart.find(cart => {
+         return cart.userId === Number(token);
+      });
+
+      res.status(200).jsonp(cart);
+   }
+})
+
 server.use(middlewares);
 server.use(jsonServer.rewriter(routes));
 server.use(_router);

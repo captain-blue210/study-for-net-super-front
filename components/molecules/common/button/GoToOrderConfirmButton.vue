@@ -1,6 +1,6 @@
 <template>
   <nuxt-link to="/step/confirm">
-    <button class="btn-form btn-next">注文確認</button>
+    <button class="btn-form btn-next w-full">注文確認</button>
   </nuxt-link>
 </template>
 
@@ -15,11 +15,6 @@ export default Vue.extend({
 <style scoped>
 .btn-form {
   position: relative;
-  display: inline-block;
-  margin: 0;
-  min-width: 365px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .btn-form::after {
