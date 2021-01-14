@@ -1,6 +1,7 @@
 const jsonServer = require("json-server");
 const fs = require("fs");
 const cors = require("cors");
+const { nextTick } = require("process");
 
 const server = jsonServer.create();
 const _router = jsonServer.router('./db.json');
@@ -21,7 +22,7 @@ server.options('*', cors());
 
 server.use(jsonServer.bodyParser);
 // cart add API mock, always returns success.
-server.post('/cart/add', (req, res) => {
+server.post('v1/cart', (req, res) => {
    if (req.method === 'POST') {
       const cartId = req.body['cartId'],
          userId = req.body['userId'],
@@ -49,7 +50,41 @@ server.get('/step/cart', (req, res) => {
 
       res.status(200).jsonp(cart);
    }
-})
+});
+
+server.get('/v1/users', (req, res) => {
+   if (req.method === 'GET') {
+      const token = req.headers.authorization.replace('Bearer ', '');
+
+      const user = db.users.find(user => {
+         return user.userId === Number(token);
+      });
+
+      res.status(200).jsonp(user);
+   }
+});
+
+server.put('/v1/cart', (req, res) => {
+   if (req.method === 'PUT') {
+      const token = req.headers.authorization.replace('Bearer ', '');
+
+      let updatedCart;
+      db.cart = db.cart.map((cart) => {
+         if (cart.userId !== Number(token)) {
+            return cart;
+         }
+
+         const param = req.body['paymentMethod'];
+         updatedCart = { ...cart, paymentMethod: param };
+         return updatedCart
+      });
+
+      const jsonString = JSON.stringify(db);
+      fs.writeFileSync('./db.json', jsonString, 'utf-8');
+
+      res.status(200).jsonp(updatedCart);
+   }
+});
 
 server.use(middlewares);
 server.use(jsonServer.rewriter(routes));

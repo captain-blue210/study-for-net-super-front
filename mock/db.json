@@ -1,4 +1,14 @@
 {
+  "users": [
+    {
+      "userId": 1,
+      "lastName": "太郎",
+      "firstName": "鈴木",
+      "postalCode": "111-1111",
+      "address": "テスト県テスト市1−1−1　000号室",
+      "telNo": "01234567890"
+    }
+  ],
   "cart": [
     {
       "cartId": 1,
@@ -10,6 +20,8 @@
       "subtotalNonTaxable": 0,
       "subtotalInternalTax": 2437,
       "totalIncludingTaxPrice": 2437,
+      "paymentMethod": "cashOnDelivery",
+      "deliveryDate": "2021-01-15 12:00:00",
       "createdAt": "2021-01-02 14:04:00",
       "updatedAt": "2021-01-02 14:04:00",
       "cartDetail": [
