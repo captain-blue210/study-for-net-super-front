@@ -8,18 +8,26 @@
     />
     <PaymentSelector
       class="row-start-1 row-end-2 col-start-3 col-end-13 mt-24"
+      :paymentMethod="cart.paymentMethod"
       @picked-payment="handlePickedPayment"
     />
     <GoToOrderConfirmButton
-      class="row-start-1 row-end-2 col-start-9 col-end-12 text-center mt-24"
+      class="row-start-1 row-end-2 col-start-9 col-end-12 text-center mt-12 h-20 w-full"
+      @handle-emit-order-confirm="handleOrderConfirm"
     />
     <CartPaymentBreakdown
       :cart="cart"
       class="row-start-1 row-end-2 col-start-9 col-end-12 w-full mt-48"
     />
-    <div class="grid grid-rows-2 grido-cols-12 row-start-2 col-start-5 mt-24">
-      <GoToOrderConfirmButton class="row-start-1 row-end-2 text-center" />
-      <BackButton class="row-start-2 row-end-3 text-center mt-2" />
+    <div class="grid grid-rows-2 row-start-3 col-start-5">
+      <GoToOrderConfirmButton
+        class="row-start-1 row-end-2 text-center h-20 w-full"
+        @handle-emit-order-confirm="handleOrderConfirm"
+      />
+      <BackButton
+        :to="'/step/cart'"
+        class="row-start-2 row-end-3 text-center -mt-6"
+      />
     </div>
   </div>
 </template>
@@ -57,8 +65,11 @@ export default Vue.extend({
         paymentMethod: this.paymentMethod,
       });
     },
+    handleOrderConfirm() {
+      this.$router.push('/step/confirm');
+    },
   },
-  async asyncData({ $axios, store }) {
+  async asyncData({ store }) {
     await store.dispatch('fetchCart');
   },
 });

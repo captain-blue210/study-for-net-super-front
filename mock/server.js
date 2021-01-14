@@ -22,7 +22,7 @@ server.options('*', cors());
 
 server.use(jsonServer.bodyParser);
 // cart add API mock, always returns success.
-server.post('v1/cart', (req, res) => {
+server.post('/v1/cart', (req, res) => {
    if (req.method === 'POST') {
       const cartId = req.body['cartId'],
          userId = req.body['userId'],
@@ -36,6 +36,21 @@ server.post('v1/cart', (req, res) => {
          cartId: cartId,
          success: true,
          message: "Adding a item to cart is success"
+      });
+   }
+});
+
+server.post('/v1/order', (req, res) => {
+   if (req.method === 'POST') {
+
+      const order = req.body['cart'];
+      db.orders.push({ orderId: order.cartId, ...order });
+      fs.writeFileSync('./db.json', JSON.stringify(db), 'utf-8');
+
+      res.status(200).jsonp({
+         orderId: order.cartId,
+         success: true,
+         message: "order success"
       });
    }
 });

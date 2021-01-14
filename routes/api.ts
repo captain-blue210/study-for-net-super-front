@@ -7,6 +7,7 @@ export const ROUTES = {
   },
   POST: {
     CART: 'v1/cart',
+    ORDER: 'v1/order',
   },
   PUT: {
     CART: 'v1/cart',

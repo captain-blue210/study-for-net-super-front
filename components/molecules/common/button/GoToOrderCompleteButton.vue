@@ -1,6 +1,6 @@
 <template>
-  <button @click="emitOrderConfirm" class="btn-form btn-next w-full">
-    注文確認
+  <button class="btn-form btn-next" @click="emitOrderComplete">
+    注文を確定する
   </button>
 </template>
 
@@ -8,10 +8,10 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-  name: 'GoToOrderButton',
+  name: 'GoToOrderCompleteButton',
   methods: {
-    emitOrderConfirm() {
-      this.$emit('handle-emit-order-confirm');
+    emitOrderComplete() {
+      this.$emit('handle-emit-order-complete');
     },
   },
 });

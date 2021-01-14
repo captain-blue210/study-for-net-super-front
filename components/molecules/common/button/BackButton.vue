@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/step/cart">
+  <nuxt-link :to="to">
     <button class="btn-form btn-prev">前に戻る</button>
   </nuxt-link>
 </template>
@@ -9,6 +9,12 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'GoToOrderButton',
+  props: {
+    to: {
+      type: String,
+      required: true,
+    },
+  },
 });
 </script>
 

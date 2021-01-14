@@ -20,7 +20,93 @@
       "subtotalNonTaxable": 0,
       "subtotalInternalTax": 2437,
       "totalIncludingTaxPrice": 2437,
-      "paymentMethod": "cashOnDelivery",
+      "paymentMethod": "creditCard",
+      "deliveryDate": "2021-01-15 12:00:00",
+      "createdAt": "2021-01-02 14:04:00",
+      "updatedAt": "2021-01-02 14:04:00",
+      "cartDetail": [
+        {
+          "cartId": 1,
+          "goodsId": 1,
+          "goodsName": "テスト商品1",
+          "goodsBrand": "テストメーカー",
+          "saleUnit": "90g×2",
+          "goodsImgUri": "test2.jpg",
+          "excludingTaxPrice": 340,
+          "includingTaxPrice": 367,
+          "goodsQuantity": 4,
+          "goodsTotalIncludingTaxPrice": 1468
+        },
+        {
+          "cartId": 1,
+          "goodsId": 2,
+          "goodsName": "テスト商品2",
+          "goodsBrand": "テストメーカー",
+          "saleUnit": "90g×2",
+          "goodsImgUri": "test2.jpg",
+          "excludingTaxPrice": 198,
+          "includingTaxPrice": 213,
+          "goodsQuantity": 3,
+          "goodsTotalIncludingTaxPrice": 639
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 1,
+      "cartId": 1,
+      "userId": 1,
+      "goodsSubtotalIncludingTaxPrice": 2107,
+      "packingFee": 0,
+      "shippingFee": 330,
+      "subtotalIncludingTaxPrice": 2437,
+      "subtotalNonTaxable": 0,
+      "subtotalInternalTax": 2437,
+      "totalIncludingTaxPrice": 2437,
+      "paymentMethod": "creditCard",
+      "deliveryDate": "2021-01-15 12:00:00",
+      "createdAt": "2021-01-02 14:04:00",
+      "updatedAt": "2021-01-02 14:04:00",
+      "cartDetail": [
+        {
+          "cartId": 1,
+          "goodsId": 1,
+          "goodsName": "テスト商品1",
+          "goodsBrand": "テストメーカー",
+          "saleUnit": "90g×2",
+          "goodsImgUri": "test2.jpg",
+          "excludingTaxPrice": 340,
+          "includingTaxPrice": 367,
+          "goodsQuantity": 4,
+          "goodsTotalIncludingTaxPrice": 1468
+        },
+        {
+          "cartId": 1,
+          "goodsId": 2,
+          "goodsName": "テスト商品2",
+          "goodsBrand": "テストメーカー",
+          "saleUnit": "90g×2",
+          "goodsImgUri": "test2.jpg",
+          "excludingTaxPrice": 198,
+          "includingTaxPrice": 213,
+          "goodsQuantity": 3,
+          "goodsTotalIncludingTaxPrice": 639
+        }
+      ]
+    },
+    {
+      "orderId": 1,
+      "cartId": 1,
+      "userId": 1,
+      "goodsSubtotalIncludingTaxPrice": 2107,
+      "packingFee": 0,
+      "shippingFee": 330,
+      "subtotalIncludingTaxPrice": 2437,
+      "subtotalNonTaxable": 0,
+      "subtotalInternalTax": 2437,
+      "totalIncludingTaxPrice": 2437,
+      "paymentMethod": "creditCard",
       "deliveryDate": "2021-01-15 12:00:00",
       "createdAt": "2021-01-02 14:04:00",
       "updatedAt": "2021-01-02 14:04:00",

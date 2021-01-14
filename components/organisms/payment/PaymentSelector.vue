@@ -19,6 +19,10 @@
             name="radio-colors"
             value="creditCard"
             @change="pickedPayment"
+            :checked="
+              paymentMethod == 'creditCard' &&
+              currentPaymentMethod == paymentMethod
+            "
           />
           <span class="ml-2">新しいカードを使う</span>
         </label>
@@ -37,6 +41,10 @@
             name="radio-colors"
             value="cashOnDelivery"
             @change="pickedPayment"
+            :checked="
+              paymentMethod == 'cashOnDelivery' &&
+              currentPaymentMethod == paymentMethod
+            "
           />
           <span class="ml-2">代金引換</span>
         </label>
@@ -54,11 +62,23 @@ export default Vue.extend({
   components: {
     AtomText,
   },
+  data() {
+    return {
+      currentPaymentMethod: this.paymentMethod,
+    };
+  },
   methods: {
     pickedPayment(event: Event) {
       if (event.target instanceof HTMLInputElement) {
+        this.currentPaymentMethod = event.target.value;
         this.$emit('picked-payment', event.target.value);
       }
+    },
+  },
+  props: {
+    paymentMethod: {
+      type: String,
+      required: true,
     },
   },
 });

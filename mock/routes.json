@@ -2,5 +2,6 @@
   "/search": "/goods",
   "/search?page=:page": "/goods?_page=:page&_limit=48",
   "/item/:goodsId": "/goods?goodsId=:goodsId",
-  "/step/cart/:cartId": "/cart?cartId=:cartId"
+  "/step/cart/:cartId": "/cart?cartId=:cartId",
+  "/v1/cart": "/cart?user"
 }
