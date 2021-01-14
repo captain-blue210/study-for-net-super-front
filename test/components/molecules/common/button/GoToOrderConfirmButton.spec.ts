@@ -3,15 +3,9 @@ import GoToOrderConfirmButton from '~/components/molecules/common/button/GoToOrd
 
 describe('GoToOrderConfirmButton', () => {
   it('should render href to payment page', () => {
-    const wrapper = mount(GoToOrderConfirmButton, {
-      stubs: {
-        NuxtLink: RouterLinkStub,
-      },
-    });
+    const wrapper = mount(GoToOrderConfirmButton);
 
-    expect(wrapper.findComponent(RouterLinkStub).props('to')).toEqual(
-      '/step/confirm',
-    );
+    expect(wrapper.find('button').emitted()).toBeTruthy();
   });
 
   it('should have button which name is 注文確認', () => {
