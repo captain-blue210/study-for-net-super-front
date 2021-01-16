@@ -2,7 +2,7 @@ import { NuxtAxiosInstance } from '@nuxtjs/axios';
 import { createLocalVue } from '@vue/test-utils';
 import axios from 'axios';
 import { cloneDeep } from 'lodash';
-import Vuex from 'Vuex';
+import Vuex from 'vuex';
 import ROUTES from '~/routes/api';
 import * as storeIndex from '~/store/index';
 
