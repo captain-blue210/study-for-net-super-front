@@ -45,7 +45,7 @@ server.post('/v1/order', (req, res) => {
 
       const order = req.body['cart'];
       db.orders.push({ orderId: order.cartId, ...order });
-      fs.writeFileSync('./db.json', JSON.stringify(db), 'utf-8');
+      fs.writeFileSync('./db.json', JSON.stringify(db, null, '\t'), 'utf-8');
 
       res.status(200).jsonp({
          orderId: order.cartId,
@@ -94,7 +94,7 @@ server.put('/v1/cart', (req, res) => {
          return updatedCart
       });
 
-      const jsonString = JSON.stringify(db);
+      const jsonString = JSON.stringify(db, null, '\t');
       fs.writeFileSync('./db.json', jsonString, 'utf-8');
 
       res.status(200).jsonp(updatedCart);

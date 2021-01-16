@@ -37,10 +37,6 @@ export const actions = {
     commit('mutateCart', {});
     this.$router.push('/step/complete');
   },
-
-  async completeOrder({ commit }) {
-    commit('mutateCart', {});
-  }
 };
 
 
